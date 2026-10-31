@@ -94,17 +94,6 @@ Dựa trên quy mô nhóm **1 - 2 người (1 Full-Stack + 1 AI)** và yêu cầ
 
 ---
 
-### Phương án C (Kiến trúc Tự chủ / On-premise AI: Web Full-Stack + Local GPU / ComfyUI / Stable Diffusion):
-- **Frontend:** **React (Vite) + Tailwind CSS** hoặc **Next.js**.
-- **Backend & AI Engine:** **Python FastAPI** chạy trực tiếp trên máy trạm của nhóm có gắn card đồ họa rời (**NVIDIA RTX 3060/4060 VRAM $\ge$ 8GB**).
-- **Mô hình AI (Local Models):**
-  - Chạy mô hình mã nguồn mở cục bộ thông qua **ComfyUI API** hoặc thư viện **Diffusers (Hugging Face)** kết hợp **Ollama (LLaVA / Phi-3-vision)** để giải nghĩa critique.
-- **Database & Storage:** **PostgreSQL / SQLite** + Lưu trữ file trực tiếp trên ổ cứng Local Disk.
-- **Đánh giá:**
-  - *Ưu điểm:* 100% miễn phí, không phụ thuộc internet khi demo (tránh rủi ro rớt mạng khi chấm thi), chứng minh được năng lực làm chủ và triển khai mô hình AI cục bộ cực kỳ thuyết phục trước Hội đồng.
-  - *Nhược điểm:* Đòi hỏi máy tính cấu hình mạnh; thời gian cài đặt môi trường CUDA/PyTorch phức tạp; khó public website ra internet cho người ngoài truy cập (phải dùng Ngrok hoặc Cloudflare Tunnel).
-
----
 
 ### Bảng so sánh 3 phương án Tech Stack:
 
